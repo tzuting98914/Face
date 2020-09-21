@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1EF3AB250A70C200B5E6D3 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1EF3AA250A70C200B5E6D3 /* CameraViewController.swift */; };
+		3F2278402517B1C000B498F8 /* TheModel3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3F22783F2517B1C000B498F8 /* TheModel3.mlmodel */; };
+		3F3459D42514D52C0042958B /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3459D32514D52C0042958B /* FaceViewController.swift */; };
+		3F3459D9251639370042958B /* TheModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3F3459D8251639360042958B /* TheModel.mlmodel */; };
+		3F4940AB2517244D00259C99 /* DetectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4940AA2517244D00259C99 /* DetectViewController.swift */; };
+		3F4940AD251727AD00259C99 /* FaceRecognition3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3F4940AC251727AD00259C99 /* FaceRecognition3.mlmodel */; };
+		3FA00D73251354FF00BA104C /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA00D72251354FF00BA104C /* ARViewController.swift */; };
+		3FA00D752513576300BA104C /* FaceDetectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA00D742513576300BA104C /* FaceDetectViewController.swift */; };
 		3FC1EE142507BAD200EBC63E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1EE132507BAD200EBC63E /* AppDelegate.swift */; };
 		3FC1EE162507BAD200EBC63E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1EE152507BAD200EBC63E /* ViewController.swift */; };
 		3FC1EE192507BAD200EBC63E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC1EE172507BAD200EBC63E /* Main.storyboard */; };
@@ -34,6 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F1EF3AA250A70C200B5E6D3 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		3F22783F2517B1C000B498F8 /* TheModel3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TheModel3.mlmodel; sourceTree = "<group>"; };
+		3F3459D32514D52C0042958B /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FaceViewController.swift; path = /Users/student/Desktop/AR/AR/FaceViewController.swift; sourceTree = "<absolute>"; };
+		3F3459D7251637730042958B /* TuriCreate.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = TuriCreate.mlmodel; path = /Users/student/Desktop/AR/AR/TuriCreate.mlmodel; sourceTree = "<absolute>"; };
+		3F3459D8251639360042958B /* TheModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TheModel.mlmodel; sourceTree = "<group>"; };
+		3F4940AA2517244D00259C99 /* DetectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectViewController.swift; sourceTree = "<group>"; };
+		3F4940AC251727AD00259C99 /* FaceRecognition3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FaceRecognition3.mlmodel; sourceTree = "<group>"; };
+		3FA00D72251354FF00BA104C /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		3FA00D742513576300BA104C /* FaceDetectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectViewController.swift; sourceTree = "<group>"; };
 		3FC1EE102507BAD200EBC63E /* AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC1EE132507BAD200EBC63E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC1EE152507BAD200EBC63E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,12 +114,21 @@
 		3FC1EE122507BAD200EBC63E /* AR */ = {
 			isa = PBXGroup;
 			children = (
+				3F4940AC251727AD00259C99 /* FaceRecognition3.mlmodel */,
+				3F3459D32514D52C0042958B /* FaceViewController.swift */,
+				3F4940AA2517244D00259C99 /* DetectViewController.swift */,
+				3F3459D8251639360042958B /* TheModel.mlmodel */,
+				3F3459D7251637730042958B /* TuriCreate.mlmodel */,
+				3F22783F2517B1C000B498F8 /* TheModel3.mlmodel */,
+				3F1EF3AA250A70C200B5E6D3 /* CameraViewController.swift */,
 				3FC1EE132507BAD200EBC63E /* AppDelegate.swift */,
 				3FC1EE152507BAD200EBC63E /* ViewController.swift */,
 				3FC1EE172507BAD200EBC63E /* Main.storyboard */,
 				3FC1EE1A2507BAD700EBC63E /* Assets.xcassets */,
 				3FC1EE1C2507BAD700EBC63E /* LaunchScreen.storyboard */,
 				3FC1EE1F2507BAD700EBC63E /* Info.plist */,
+				3FA00D72251354FF00BA104C /* ARViewController.swift */,
+				3FA00D742513576300BA104C /* FaceDetectViewController.swift */,
 			);
 			path = AR;
 			sourceTree = "<group>";
@@ -256,8 +282,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1EF3AB250A70C200B5E6D3 /* CameraViewController.swift in Sources */,
 				3FC1EE162507BAD200EBC63E /* ViewController.swift in Sources */,
+				3F4940AD251727AD00259C99 /* FaceRecognition3.mlmodel in Sources */,
+				3FA00D752513576300BA104C /* FaceDetectViewController.swift in Sources */,
+				3F3459D42514D52C0042958B /* FaceViewController.swift in Sources */,
 				3FC1EE142507BAD200EBC63E /* AppDelegate.swift in Sources */,
+				3F2278402517B1C000B498F8 /* TheModel3.mlmodel in Sources */,
+				3F4940AB2517244D00259C99 /* DetectViewController.swift in Sources */,
+				3FA00D73251354FF00BA104C /* ARViewController.swift in Sources */,
+				3F3459D9251639370042958B /* TheModel.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DHH9JJ9K4N;
 				INFOPLIST_FILE = AR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +488,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DHH9JJ9K4N;
 				INFOPLIST_FILE = AR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
